@@ -1,0 +1,41 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    background: #8D6E63;
+    /* background: url("images/lespaul.jpg"); */
+    overflow-x: hidden;    
+}
+
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link{
+    color: #bdbdbd;
+}
+#mainNavbar .nav-link:hover{
+    color: #ffccbc;
+}
+
+#mainNavbar .navbar-brand{
+    color: #ffccbc;  
+    font-size: 1.5rem;
+    font-weight: 100;  
+}
+#headingGroup h1{
+    color: #bdbdbd;
+    font-weight: 100;
+    font-size: 2.5rem;
+
+}
+#headingGroup span{
+    color: #ffccbc;
+}
+
+@media(max-width:1500px){
+    #headingGroup h1{
+        color: #bdbdbd;
+        font-weight: 100;
+        font-size: 1.5rem;    
+    }
+}
